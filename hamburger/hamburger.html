@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburgert</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="hamb">
+        <div class="size">
+          <span>size</span>
+          <label>
+            <input type="radio" name="size" value="little" />
+            <span>little</span>
+          </label>
+          <label>
+            <input type="radio" name="size" value="big" />
+            <span>big</span>
+          </label>
+        </div>
+        <div class="stuffing">
+          <span>stuffing</span>
+          <label>
+            <input type="radio" name="stuffing" value="cheese" />
+            <span>cheese</span>
+          </label>
+          <label>
+            <input type="radio" name="stuffing" value="salad" />
+            <span>salad</span>
+          </label>
+          <label>
+            <input type="radio" name="stuffing" value="potatoes" />
+            <span>potatoes</span>
+          </label>
+        </div>
+
+        <div class="topping">
+          <span>topping</span>
+          <label>
+            <input type="checkbox" name="topping" value="seasoning" />
+            <span>seasoning</span>
+          </label>
+          <label>
+            <input type="checkbox" name="topping" value="mayonnaise" />
+            <span>mayonnaise</span>
+          </label>
+        </div>
+      </div>
+      <div class="functions">
+        <button class="buy-burger">Buy</button>
+        <div class="price-calories">
+          <div class="total-price">
+            <article>Total price</article>
+            <span class="total-price-number">0</span>
+          </div>
+          <div class="total-calories">
+            <article>Total calories</article>
+            <span class="total-calories-number">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="hamburger.js"></script>
+  </body>
+</html>
